@@ -1,13 +1,13 @@
 package com.livetracker;
 
 public class MyLocation {
-	private String id;
+	private int id;
 	private double lat;
 	private double lng;
 	private String time;
 	
 	
-	public MyLocation(String id, double lat, double lng, String time) {
+	public MyLocation(int id, double lat, double lng, String time) {
 		super();
 		this.id = id;
 		this.lat = lat;
@@ -15,10 +15,10 @@ public class MyLocation {
 		this.time = time;
 	}
 	
-	public String getId() {
+	public int getId() {
 		return id;
 	}
-	public void setId(String id) {
+	public void setId(int id) {
 		this.id = id;
 	}
 	public double getLat() {
